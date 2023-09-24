@@ -10,17 +10,14 @@ body {
 }
 .topSection{
     display: flex;
-    background-color: #1F2937;
+    background-color: #030508;
     justify-content: space-evenly;
     padding-bottom: 4rem;
     align-items: center;
-    
-
 }
 .hero{
-    background-color: #1F2937;
+    background-color: #030508;
     padding: 1rem;
-
 }
 h1 {
     font-weight:bolder;
@@ -39,17 +36,22 @@ h1 {
 .header{
     display: flex;
     justify-content: space-around;
-    background-color:#1F2937;
+    background-color: #030508;
     align-items: center;
     gap:15rem;
     padding-bottom: 5rem;
 }
-.logo{
-    font-weight: 900;
-    font-size: 24PX;
-    margin-top: 8px;
-    margin-left: 3rem;
-    color:#F9FAF8 ;
+.logo img{
+    max-width: 100%;
+    border-radius: 4px;
+    /* font-weight: 900; */
+    /* font-size: 24PX; */
+    /* margin-top: 8px; */
+    /* margin-left: 3rem; */
+    /* color:#F9FAF8; */
+    /* size: portrait; */
+    height: auto;
+    /* transform: scaleX(1.5); */
 }
 ul{
     display: flex;
