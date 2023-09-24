@@ -67,6 +67,9 @@ a {
     text-decoration: none;
     color: antiquewhite;   
 }
+a:hover{
+    color: aquamarine;
+}
 .placeholder {
     background-color: #6b6c6c;
     display: flex;
