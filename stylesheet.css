@@ -70,6 +70,7 @@ a {
 a:hover{
     color: aquamarine;
 }
+
 .placeholder {
     background-color: #6b6c6c;
     display: flex;
@@ -94,27 +95,47 @@ button {
     /* border-width: 4px; */
     border: 2rem;
 }
+.middleSection{
+}
 .middleSectionHeader {
     font-size: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight:900;
-    font-size: 40px;
-    color: #1F2937;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 45px;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: linear-gradient(358deg, #080808,transparent);
+    /* font-family: cursive; */
 }
  .middleSectionCards{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    margin: 6rem 6rem;
-    margin-right: 15rem;
-    margin-left: 15rem;
-    
+    padding: 6rem 6rem;
+    /* margin-right: 15rem; */
+    /* margin-left: 15rem; */
+    flex-direction: row;
+    background-image: linear-gradient(182deg, black, transparent);
 } 
+.middleSectionCards a {
+    color: #030508;
+    font-size: 34px;
+    font-weight: 400;
+}
+.middleSectionCards a:hover {
+    color: aquamarine;
+}
+.middleSectionCards img {
+    max-width: fit-content;
+}
+.card img[alt="mal"]{
+    height: 210px;
+    object-fit: fill;
+}
 .card {
     max-width:210px;
     display: flex;
