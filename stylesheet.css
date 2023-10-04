@@ -30,7 +30,7 @@ h1 {
 .content{
     font-size: 18px;
     color: #e5E7EB;
-    max-width: 24rem;
+    max-width: 32rem;
     margin-bottom: 10px;    /* transform: scaleX(1.5); */
 }
 .header{
