@@ -68,14 +68,15 @@ a:hover{
 }
 
 .placeholder {
-    background-color: #6b6c6c;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
-    padding: 5rem; 
-    padding-left: 7rem;
-    padding-right: 7rem;
+
+}
+.placeholder img{
+    width: 500px;
+    height:400px;
+
 }
 button {
     background-color: #3882f6;
@@ -163,25 +164,31 @@ button {
 .lowerSection{
     display: flex;
     justify-content: space-around;
-    background-color: #3882F6;
+    /* background-color: #3882F6; */
     margin: 3.5rem 5rem;
     padding: 2rem 3rem;
     border-radius: 10px;
     gap: 3rem;
 }
+.lowerSection img{
+    height: 300px;
+    width: 300px;
+    
+}
+
 h3{
     font-size: 36px;
     font-weight: 900;
-    color: white;
+    color: black;
 }
 .lowerSectionContent{
     font-size: 17px;
-    color:white;
+    color:black;
 
 }
 .lowerSectionButton {
      border-style: solid;
-     border-color: white;
+     border-color: black;
      border-width: 2px;
      border-radius: 10px;
      display: flex;
@@ -196,4 +203,3 @@ h3{
     align-items: center;
     color: #e5E7EB;
 }
-
