@@ -161,7 +161,7 @@ button {
     color: #1F2937;
 
 }
-.lowerSection{
+.project1{
     display: flex;
     justify-content: space-around;
     /* background-color: #3882F6; */
@@ -180,12 +180,12 @@ h3{
     font-weight: 900;
     color: rgb(167, 221, 255);
 }
-.lowerSectionContent{
+.projectContent1{
     font-size: 25px;
     color:rgb(247, 254, 255);
 
 }
-.lowerSectionButton {
+.projectButton1 {
      border-style: solid;
      border-color: rgb(43, 229, 246);
      border-width: 4px;
@@ -194,7 +194,7 @@ h3{
      justify-content: center;
      align-items: center;
 }
-.lowerSectionButton a{
+.projectButton1 a{
     padding: 23px;
     color: #014376;
     background-color: #f09cd4;
